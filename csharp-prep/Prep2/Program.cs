@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.Write("");
+        Console.Write("What is your final grade percentage? note: do not add %");
         string answer = Console.ReadLine();
         int percent = int.Parse(answer);
 
