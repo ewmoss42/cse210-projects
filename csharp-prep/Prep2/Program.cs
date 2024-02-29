@@ -52,7 +52,7 @@ class Program
         }
         else if (percent >= 60)
         {
-            grade = "D-"
+            grade = "D-";
         }
         else 
         {
