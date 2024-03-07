@@ -1,6 +1,6 @@
 using System;
 
-class Entry
+class Journal_Entry
 {
     // date and time of the entry
     public string Date { get; set; }
@@ -12,7 +12,7 @@ class Entry
     public string Response { get; set; }
 
     // parameters and sets the date to the current date and time
-    public Entry(string prompt, string response)
+    public Journal_Entry(string prompt, string response)
     {
         Date = DateTime.Now.ToString();
         Prompt = prompt;
@@ -20,7 +20,7 @@ class Entry
     }
 
     // Another constructor that takes the date, prompt, and response as parameters and sets the properties accordingly
-    public Entry(string date, string prompt, string response)
+    public Journal_Entry(string date, string prompt, string response)
     {
         Date = date;
         Prompt = prompt;
